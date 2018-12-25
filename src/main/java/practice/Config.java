@@ -19,4 +19,9 @@ public class Config {
 		System.out.println("made!");
 		return new Thing("bthing!!", 111111111);
 	}
+	
+	@Bean
+	public AnnoyingClass annoy() {
+		return new AnnoyingClass();
+	}
 }
